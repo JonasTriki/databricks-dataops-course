@@ -8,9 +8,9 @@ from pathlib import Path
 
 deploy_notebooks = [
     str(path)
-    for path in Path("/Workspace/Repos/yourusername/databricks-dataops-course/orgs/acme/domains/transport/projects/").glob(
-        "**/deploy"
-    )
+    for path in Path(
+        "/Workspace/Repos/jonas@islandgarden.no/databricks-dataops-course/orgs/acme/domains/transport/projects/"
+    ).glob("**/deploy")
     if "example_" not in str(path)
 ]
 
