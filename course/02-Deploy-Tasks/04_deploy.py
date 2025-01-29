@@ -47,7 +47,7 @@
 
 # MAGIC %md
 # MAGIC
-# MAGIC Answer here...
+# MAGIC A job explains the tasks to be run and the conditions that need to be met (e.g. wait for task X to succeed first). A job run is an execution of the job and performs the task as specified in the job.
 
 # COMMAND ----------
 
@@ -60,4 +60,4 @@
 
 # MAGIC %md
 # MAGIC
-# MAGIC Answer here...
+# MAGIC An example name is `acme_transport_taxinyc_prep_dev_jonas_featgh10620127001_4c6799ab`. The name follows the folder structure of the code and gives a clear idea which job has been run.
